@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		4E7D88191F58D5D80026CBD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7D88181F58D5D80026CBD4 /* AppDelegate.swift */; };
-		4E7D881B1F58D5D80026CBD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7D881A1F58D5D80026CBD4 /* ViewController.swift */; };
+		4E7D881B1F58D5D80026CBD4 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7D881A1F58D5D80026CBD4 /* CategoriesVC.swift */; };
 		4E7D881E1F58D5D80026CBD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E7D881C1F58D5D80026CBD4 /* Main.storyboard */; };
 		4E7D88201F58D5D80026CBD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E7D881F1F58D5D80026CBD4 /* Assets.xcassets */; };
 		4E7D88231F58D5D80026CBD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E7D88211F58D5D80026CBD4 /* LaunchScreen.storyboard */; };
+		4ED763481F58E587006268E1 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED763471F58E587006268E1 /* CategoryCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4E7D88151F58D5D80026CBD4 /* coder-swag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coder-swag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E7D88181F58D5D80026CBD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4E7D881A1F58D5D80026CBD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4E7D881A1F58D5D80026CBD4 /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
 		4E7D881D1F58D5D80026CBD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E7D881F1F58D5D80026CBD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E7D88221F58D5D80026CBD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E7D88241F58D5D80026CBD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ED763471F58E587006268E1 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,39 @@
 		4E7D88171F58D5D80026CBD4 /* coder-swag */ = {
 			isa = PBXGroup;
 			children = (
+				4ED763461F58E4F4006268E1 /* View */,
+				4ED763451F58E4EA006268E1 /* Model */,
+				4ED763441F58E4DE006268E1 /* Contoller */,
 				4E7D88181F58D5D80026CBD4 /* AppDelegate.swift */,
-				4E7D881A1F58D5D80026CBD4 /* ViewController.swift */,
 				4E7D881C1F58D5D80026CBD4 /* Main.storyboard */,
 				4E7D881F1F58D5D80026CBD4 /* Assets.xcassets */,
 				4E7D88211F58D5D80026CBD4 /* LaunchScreen.storyboard */,
 				4E7D88241F58D5D80026CBD4 /* Info.plist */,
 			);
 			path = "coder-swag";
+			sourceTree = "<group>";
+		};
+		4ED763441F58E4DE006268E1 /* Contoller */ = {
+			isa = PBXGroup;
+			children = (
+				4E7D881A1F58D5D80026CBD4 /* CategoriesVC.swift */,
+			);
+			path = Contoller;
+			sourceTree = "<group>";
+		};
+		4ED763451F58E4EA006268E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4ED763461F58E4F4006268E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4ED763471F58E587006268E1 /* CategoryCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +162,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E7D881B1F58D5D80026CBD4 /* ViewController.swift in Sources */,
+				4E7D881B1F58D5D80026CBD4 /* CategoriesVC.swift in Sources */,
 				4E7D88191F58D5D80026CBD4 /* AppDelegate.swift in Sources */,
+				4ED763481F58E587006268E1 /* CategoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +301,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T9DN4ZMC5E;
 				INFOPLIST_FILE = "coder-swag/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.snowappdevelopment.coder-swag";
@@ -286,6 +315,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T9DN4ZMC5E;
 				INFOPLIST_FILE = "coder-swag/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.snowappdevelopment.coder-swag";
