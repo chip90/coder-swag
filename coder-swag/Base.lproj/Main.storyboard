@@ -41,9 +41,9 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="digital" translatesAutoresizingMaskIntoConstraints="NO" id="dX7-he-xCy">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="135.5"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="133"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="136" id="zmZ-FX-ctw"/>
+                                                        <constraint firstAttribute="height" constant="140" id="LLc-dY-HzM"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOODIES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y1x-e3-fUd">
@@ -58,10 +58,11 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="dX7-he-xCy" firstAttribute="leading" secondItem="eIv-rN-us1" secondAttribute="leading" id="0op-v0-Q5c"/>
-                                                <constraint firstAttribute="bottom" secondItem="dX7-he-xCy" secondAttribute="bottom" constant="3" id="AQq-fd-vHh"/>
-                                                <constraint firstItem="dX7-he-xCy" firstAttribute="top" secondItem="eIv-rN-us1" secondAttribute="top" constant="3" id="GXU-Fj-9qr"/>
-                                                <constraint firstAttribute="trailing" secondItem="dX7-he-xCy" secondAttribute="trailing" id="To3-8U-oR7"/>
+                                                <constraint firstItem="dX7-he-xCy" firstAttribute="centerX" secondItem="eIv-rN-us1" secondAttribute="centerX" id="6hO-y0-vPi"/>
+                                                <constraint firstItem="dX7-he-xCy" firstAttribute="leading" secondItem="eIv-rN-us1" secondAttribute="leading" id="F4q-Og-LbC"/>
+                                                <constraint firstAttribute="trailing" secondItem="dX7-he-xCy" secondAttribute="trailing" id="OCq-aW-lgO"/>
+                                                <constraint firstItem="dX7-he-xCy" firstAttribute="top" secondItem="eIv-rN-us1" secondAttribute="top" id="Rkn-bc-psz"/>
+                                                <constraint firstAttribute="bottom" secondItem="dX7-he-xCy" secondAttribute="bottom" constant="3" id="Ug0-MR-XCV"/>
                                                 <constraint firstItem="y1x-e3-fUd" firstAttribute="centerY" secondItem="eIv-rN-us1" secondAttribute="centerY" id="ntU-wq-9Hd"/>
                                                 <constraint firstItem="y1x-e3-fUd" firstAttribute="centerX" secondItem="eIv-rN-us1" secondAttribute="centerX" id="pOS-wZ-r3E"/>
                                             </constraints>
